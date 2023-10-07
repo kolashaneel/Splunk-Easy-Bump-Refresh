@@ -1,0 +1,10 @@
+div{
+    padding:30px;
+    width: 210px;
+    height: 110px;
+    background-color: teal;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
