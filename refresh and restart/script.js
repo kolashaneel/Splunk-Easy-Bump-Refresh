@@ -11,7 +11,7 @@ function updatePopup(url) {
   const regex_pattern=/\w+:\/\/\w+:\w+\/\w+-\w+\//;
   const match = regex_pattern.exec(url);
   if (match == null){
-    document.getElementById("info").innerHTML = "Invalid URL"
+    document.getElementById("info").innerHTML = "Not a Splunk URL"
   }
   else{
     document.getElementById('bump').addEventListener('click', () => {

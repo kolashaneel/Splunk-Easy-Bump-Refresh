@@ -1,5 +1,5 @@
 {
-    "name":"Splunk Refresh & Restart",
+    "name":"Splunk Bump and Refresh",
     "version":"1.0",
     "manifest_version":3,
     "action":{
