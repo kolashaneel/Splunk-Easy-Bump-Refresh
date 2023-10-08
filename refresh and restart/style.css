@@ -5,12 +5,13 @@ body {
 }
 
 div {
-  padding: 30px;
+  padding-top:5px;
+  padding-bottom: 25px;
   width: 210px;
   height: 110px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    155deg,
+    45deg,
     rgb(12 171 128) 0%,
     rgb(150 30 205) 50%,
     rgb(12 171 128) 100%
@@ -50,4 +51,29 @@ button:hover {
 }
 button:focus-visible{
     outline-offset: 1px;
+}
+
+#info{
+  font-size: 12px;
+  text-shadow: 0.5px 0.5px;
+  color: white;
+  animation: animate 1.5s linear infinite; 
+}
+
+@keyframes animate{ 
+  0%{ 
+    opacity: 0; 
+  } 
+  50%{ 
+    opacity: 0.7; 
+  } 
+  100%{ 
+    opacity: 0; 
+  } 
+} 
+
+#title{
+  font-size: 20px;
+  font-weight:900;
+  color: white;
 }
